@@ -29,9 +29,6 @@ function createIssue() {
   }).then(res => showIssues(res));
 }
 
-function showResults(json) {
-}
-
 function forkRepo() {
   const repo = 'learn-co-curriculum/javascript-fetch-lab'
   fetch(`https://api.github.com/repos/${repo}/forks`, {
